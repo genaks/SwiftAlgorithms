@@ -21,44 +21,52 @@ class CircleAlgorithmTests: XCTestCase {
     
     func testCircleAlgorithmReturnsZero_IfNoElement() {
         let sut = CircleAlgorithm()
-        let result = sut.solution(s: "", x: [], y: [])
+        let result = sut.solution(S: "", X: [], Y: [])
         XCTAssertEqual(result, 0)
     }
     
     func testCircleAlgorithmReturnsZero_IfMalformedInput() {
         let sut = CircleAlgorithm()
-        let result = sut.solution(s: "AB", x: [1], y: [2,1])
+        let result = sut.solution(S: "AB", X: [1], Y: [2,1])
         XCTAssertEqual(result, 0)
     }
     
     func testCircleAlgorithm() {
         let sut = CircleAlgorithm()
-        let result = sut.solution(s: "AB", x: [1,2], y: [2,1])
+        let result = sut.solution(S: "AB", X: [1,2], Y: [2,1])
         XCTAssertEqual(result, 2)
     }
     
     func testCircleAlgorithm_DiffierentOutput() {
         let sut = CircleAlgorithm()
-        let result = sut.solution(s: "ABCDA", x: [2, -1, -4, -3, 3], y: [2, -2, 4, 1, -3])
+        let result = sut.solution(S: "ABCDA", X: [2, -1, -4, -3, 3], Y: [2, -2, 4, 1, -3])
         XCTAssertEqual(result, 3)
     }
     
     func testCircleAlgorithm_TestCase3() {
         let sut = CircleAlgorithm()
-        let result = sut.solution(s: "ABB", x: [1, -2, -2], y: [1, -2, 2])
+        let result = sut.solution(S: "ABB", X: [1, -2, -2], Y: [1, -2, 2])
         XCTAssertEqual(result, 1)
     }
     
     func testCircleAlgorithm_TestCase4() {
         let sut = CircleAlgorithm()
-        let result = sut.solution(s: "CCD", x: [1, -1, 2], y: [1, -1, -2])
-        XCTAssertEqual(result, 1)
+        let result = sut.solution(S: "CCD", X: [1, -1, 2], Y: [1, -1, -2])
+        XCTAssertEqual(result, 0)
     }
     
     func testCircleAlgorithm_TestCase5() {
         let sut = CircleAlgorithm()
-        let result = sut.solution(s: "ABCDA", x: [2, -1, -4, -3, 3], y: [2, -2, 4, 1, -3])
+        let result = sut.solution(S: "ABCDA", X: [2, -1, -4, -3, 3], Y: [2, -2, 4, 1, -3])
         XCTAssertEqual(result, 3)
+    }
+    
+    func testTime() {
+        let sut = CircleAlgorithm()
+        let startTime = CFAbsoluteTimeGetCurrent()
+        let _ = sut.solution(S: "ABCDA", X: [2, -1, -4, -3, 3], Y: [2, -2, 4, 1, -3])
+        let timeElapsed = CFAbsoluteTimeGetCurrent() - startTime
+        print("Time elapsed for \(timeElapsed) s.")
     }
     
     func testReturnsDistance() {

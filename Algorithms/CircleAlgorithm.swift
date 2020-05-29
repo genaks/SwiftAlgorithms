@@ -10,38 +10,35 @@ import Foundation
 
 struct CircleAlgorithm {
     
-    func solution(s: String, x : [Int], y : [Int]) -> Int {
-        if s.count == 0 || x.count == 0 || y.count == 0 {
+    func solution(S: String, X : [Int], Y : [Int]) -> Int {
+        if S.count == 0 || X.count == 0 || Y.count == 0 {
             return 0
         }
-        else if s.count != x.count || x.count != y.count || s.count != y.count {
+        else if S.count != X.count || X.count != Y.count || S.count != Y.count {
             return 0
         }
         else {
             var maxRadius = 0.0
             var points : [Character : Double] = [:]
-            var flag = false
-            for i in 0..<s.count {
-                let charArray = Array(s)
-                let distance = distanceFromZero(x: x[i], y: y[i])
+            var foundDuplicate = false
+            for i in 0..<S.count {
+                let charArray = Array(S)
+                let distance = distanceFromZero(x: X[i], y: Y[i])
                 if points[charArray[i]] == nil {
                     points[charArray[i]] = distance
-                    if distance > maxRadius {
+                    if distance > maxRadius && !foundDuplicate {
                         maxRadius = distance
                     }
                 }
                 else {
-                    flag = true
+                    foundDuplicate = true
                     let exisitingDistance = points[charArray[i]]!
-                    if distance > exisitingDistance {
+                    if distance < exisitingDistance && distance < maxRadius {
                         maxRadius = distance
-                    }
-                    else {
-                        maxRadius = exisitingDistance
                     }
                 }
             }
-            if flag {
+            if foundDuplicate {
                 for key in points.keys {    //clean up the dictionary
                     if points[key]! >= maxRadius {
                         points[key] = nil

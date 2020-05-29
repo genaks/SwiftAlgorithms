@@ -23,47 +23,56 @@ class CompressionAlgorithmTests: XCTestCase {
     }
 
     func testCompressionAlgorithmReturnsZero_IfEmptyString() {
-        let result = sut.solution(s: "", k: 0)
+        var string = ""
+        let result = sut.solution(&string, K: 0)
         XCTAssertEqual(result, 0)
     }
     
     func test2() {
-        let result = sut.solution(s: "AA", k: 0)
+        var string = "AA"
+        let result = sut.solution(&string, K: 0)
         XCTAssertEqual(result, 2)
     }
-    
+
     func test3() {
-        let result = sut.solution(s: "AB", k: 0)
+        var string = "AA"
+        let result = sut.solution(&string, K: 0)
         XCTAssertEqual(result, 2)
     }
-    
+
     func test4() {
-        let result = sut.solution(s: "ABCDEFGHI", k: 9)
+        var string = "ABCDEFGHI"
+        let result = sut.solution(&string, K: 9)
         XCTAssertEqual(result, 2)
     }
-    
+
     func test5() {
-        let result = sut.solution(s: "ABCDEFGHI", k: 11)
+        var string = "ABCDEFGHI"
+        let result = sut.solution(&string, K: 11)
         XCTAssertEqual(result, 2)
     }
-    
+
     func test6() {
-        let result = sut.solution(s: "AAAXXXAAAAAAAA", k: 3)
+        var string = "AAAXXXAAAAAAAA"
+        let result = sut.solution(&string, K: 3)
         XCTAssertEqual(result, 3)
     }
     
     func test7() {
-        let result = sut.solution(s: "ABBBCCDDCCC", k: 3)
+        var string = "ABBBCCDDCCC"
+        let result = sut.solution(&string, K: 3)
         XCTAssertEqual(result, 5)
     }
     
     func test8() {
-        let result = sut.solution(s: "ABBBCCDXACCCCCD", k: 3)
+        var string = "ABBBCCDXACCCCCD"
+        let result = sut.solution(&string, K: 3)
         XCTAssertEqual(result, 6)
     }
-    
+
     func test9() {
-        let result = sut.solution(s: "AAABBBCCDXACCCCCD", k: 3)
+        var string = "AAABBBCCDXACCCCCD"
+        let result = sut.solution(&string, K: 3)
         XCTAssertEqual(result, 7)
     }
 }

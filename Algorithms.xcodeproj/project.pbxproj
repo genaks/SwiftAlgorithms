@@ -13,6 +13,16 @@
 		BA28BFFD247C677600EA7D5F /* MergingAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA28BFFC247C677600EA7D5F /* MergingAlgorithm.swift */; };
 		BA28BFFF247D292000EA7D5F /* CircleAlgorithmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA28BFFE247D292000EA7D5F /* CircleAlgorithmTests.swift */; };
 		BA28C001247D299100EA7D5F /* CircleAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA28C000247D299100EA7D5F /* CircleAlgorithm.swift */; };
+		BA28C005247EC36700EA7D5F /* SplitAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA28C004247EC36700EA7D5F /* SplitAlgorithm.swift */; };
+		BA28C007247EC41B00EA7D5F /* SplitAlgorithmTesrs.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA28C006247EC41B00EA7D5F /* SplitAlgorithmTesrs.swift */; };
+		BA28C009247EFF5100EA7D5F /* BinaryGapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA28C008247EFF5100EA7D5F /* BinaryGapTests.swift */; };
+		BA28C00B247EFF8A00EA7D5F /* BinaryGap.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA28C00A247EFF8A00EA7D5F /* BinaryGap.swift */; };
+		BA28C00E247FA65300EA7D5F /* CyclicRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA28C00C247FA64D00EA7D5F /* CyclicRotation.swift */; };
+		BA28C010247FA66400EA7D5F /* CyclicRotationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA28C00F247FA66400EA7D5F /* CyclicRotationTests.swift */; };
+		BA28C012247FBE9200EA7D5F /* OddOneOutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA28C011247FBE9200EA7D5F /* OddOneOutTests.swift */; };
+		BA28C014247FBEB700EA7D5F /* OddOneOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA28C013247FBEB700EA7D5F /* OddOneOut.swift */; };
+		BA28C016248038FC00EA7D5F /* FrogJumpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA28C015248038FC00EA7D5F /* FrogJumpTests.swift */; };
+		BA28C0182480390600EA7D5F /* FrogJumps.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA28C0172480390600EA7D5F /* FrogJumps.swift */; };
 		BA4B16F9246ECCB00021553E /* ArrayIntersection.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4B16F8246ECCB00021553E /* ArrayIntersection.swift */; };
 		BA4B16FB246EDA080021553E /* PlusOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4B16FA246EDA080021553E /* PlusOne.swift */; };
 		BA4B16FD246EF4E40021553E /* PlusOneTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4B16FC246EF4E40021553E /* PlusOneTester.swift */; };
@@ -55,6 +65,16 @@
 		BA28BFFC247C677600EA7D5F /* MergingAlgorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergingAlgorithm.swift; sourceTree = "<group>"; };
 		BA28BFFE247D292000EA7D5F /* CircleAlgorithmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleAlgorithmTests.swift; sourceTree = "<group>"; };
 		BA28C000247D299100EA7D5F /* CircleAlgorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleAlgorithm.swift; sourceTree = "<group>"; };
+		BA28C004247EC36700EA7D5F /* SplitAlgorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitAlgorithm.swift; sourceTree = "<group>"; };
+		BA28C006247EC41B00EA7D5F /* SplitAlgorithmTesrs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitAlgorithmTesrs.swift; sourceTree = "<group>"; };
+		BA28C008247EFF5100EA7D5F /* BinaryGapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryGapTests.swift; sourceTree = "<group>"; };
+		BA28C00A247EFF8A00EA7D5F /* BinaryGap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryGap.swift; sourceTree = "<group>"; };
+		BA28C00C247FA64D00EA7D5F /* CyclicRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyclicRotation.swift; sourceTree = "<group>"; };
+		BA28C00F247FA66400EA7D5F /* CyclicRotationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyclicRotationTests.swift; sourceTree = "<group>"; };
+		BA28C011247FBE9200EA7D5F /* OddOneOutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OddOneOutTests.swift; sourceTree = "<group>"; };
+		BA28C013247FBEB700EA7D5F /* OddOneOut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OddOneOut.swift; sourceTree = "<group>"; };
+		BA28C015248038FC00EA7D5F /* FrogJumpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrogJumpTests.swift; sourceTree = "<group>"; };
+		BA28C0172480390600EA7D5F /* FrogJumps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrogJumps.swift; sourceTree = "<group>"; };
 		BA4B16F8246ECCB00021553E /* ArrayIntersection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayIntersection.swift; sourceTree = "<group>"; };
 		BA4B16FA246EDA080021553E /* PlusOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusOne.swift; sourceTree = "<group>"; };
 		BA4B16FC246EF4E40021553E /* PlusOneTester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusOneTester.swift; sourceTree = "<group>"; };
@@ -143,6 +163,11 @@
 				BA28BFF8247C0DE400EA7D5F /* CompressionAlgorithm.swift */,
 				BA28BFFC247C677600EA7D5F /* MergingAlgorithm.swift */,
 				BA28C000247D299100EA7D5F /* CircleAlgorithm.swift */,
+				BA28C004247EC36700EA7D5F /* SplitAlgorithm.swift */,
+				BA28C00A247EFF8A00EA7D5F /* BinaryGap.swift */,
+				BA28C00C247FA64D00EA7D5F /* CyclicRotation.swift */,
+				BA28C013247FBEB700EA7D5F /* OddOneOut.swift */,
+				BA28C0172480390600EA7D5F /* FrogJumps.swift */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -161,6 +186,11 @@
 				BA28BFF6247C0DC600EA7D5F /* CompressionAlgorithmTests.swift */,
 				BA28BFFA247C671E00EA7D5F /* MergingAlgorithmTests.swift */,
 				BA28BFFE247D292000EA7D5F /* CircleAlgorithmTests.swift */,
+				BA28C006247EC41B00EA7D5F /* SplitAlgorithmTesrs.swift */,
+				BA28C008247EFF5100EA7D5F /* BinaryGapTests.swift */,
+				BA28C00F247FA66400EA7D5F /* CyclicRotationTests.swift */,
+				BA28C011247FBE9200EA7D5F /* OddOneOutTests.swift */,
+				BA28C015248038FC00EA7D5F /* FrogJumpTests.swift */,
 			);
 			path = AlgorithmsTests;
 			sourceTree = "<group>";
@@ -267,13 +297,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA4B16F9246ECCB00021553E /* ArrayIntersection.swift in Sources */,
+				BA28C00B247EFF8A00EA7D5F /* BinaryGap.swift in Sources */,
 				BA28BFFD247C677600EA7D5F /* MergingAlgorithm.swift in Sources */,
+				BA28C0182480390600EA7D5F /* FrogJumps.swift in Sources */,
+				BA28C014247FBEB700EA7D5F /* OddOneOut.swift in Sources */,
 				BA81B67B2469905700346432 /* PalindromeChecker.swift in Sources */,
 				BA81B689246AA03400346432 /* strStr.swift in Sources */,
 				BA81B6852469F94400346432 /* ATOIConverter.swift in Sources */,
 				BA81B6772469864C00346432 /* AnagramChecker.swift in Sources */,
 				BA81B6562469853100346432 /* ViewController.swift in Sources */,
+				BA28C00E247FA65300EA7D5F /* CyclicRotation.swift in Sources */,
 				BA28BFF9247C0DE400EA7D5F /* CompressionAlgorithm.swift in Sources */,
+				BA28C005247EC36700EA7D5F /* SplitAlgorithm.swift in Sources */,
 				BA4B17032470466A0021553E /* LinkedListDeletion.swift in Sources */,
 				BA28C001247D299100EA7D5F /* CircleAlgorithm.swift in Sources */,
 				BA4B16FB246EDA080021553E /* PlusOne.swift in Sources */,
@@ -294,9 +329,14 @@
 				BA28BFFB247C671E00EA7D5F /* MergingAlgorithmTests.swift in Sources */,
 				BA4B16FF246EF9390021553E /* SudokuValidatorTests.swift in Sources */,
 				BA81B687246A9ECC00346432 /* HaystackTests.swift in Sources */,
+				BA28C012247FBE9200EA7D5F /* OddOneOutTests.swift in Sources */,
 				BA81B6792469901A00346432 /* PalindromeCheckerTests.swift in Sources */,
 				BA4B1705247046BF0021553E /* DeletionTests.swift in Sources */,
+				BA28C009247EFF5100EA7D5F /* BinaryGapTests.swift in Sources */,
+				BA28C010247FA66400EA7D5F /* CyclicRotationTests.swift in Sources */,
+				BA28C016248038FC00EA7D5F /* FrogJumpTests.swift in Sources */,
 				BA4B16FD246EF4E40021553E /* PlusOneTester.swift in Sources */,
+				BA28C007247EC41B00EA7D5F /* SplitAlgorithmTesrs.swift in Sources */,
 				BA28BFF7247C0DC600EA7D5F /* CompressionAlgorithmTests.swift in Sources */,
 				BA81B66C2469853500346432 /* AlgorithmsTests.swift in Sources */,
 			);
