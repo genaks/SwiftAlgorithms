@@ -9,13 +9,13 @@
 import Foundation
 
 struct FrogJumps {
-    public func solution(_ X : Int, _ Y : Int, _ D : Int) -> Int {
-        if D == 0 || X > Y {
+    public func solution(_ initialPosition : Int, _ finalPosition : Int, _ jumpLength : Int) -> Int {
+        if jumpLength == 0 || initialPosition > finalPosition {
             return 0
         }
-        let distance = Y - X
-        let jumps = distance / D
-        if distance % D == 0 {
+        let distance = finalPosition - initialPosition
+        let jumps = distance / jumpLength
+        if distance % jumpLength == 0 {
             return jumps
         }
         return jumps + 1
