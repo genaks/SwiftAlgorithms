@@ -60,9 +60,10 @@ class SplitAlgorithmTesrs: XCTestCase {
         XCTAssertEqual(result, 2)
     }
     
+    
     func test8() {
         var string = "aabaaba"
         let result = sut.solution(&string)
-        XCTAssertEqual(result, 2)
+        XCTAssertEqual(result, 0)
     }
 }
